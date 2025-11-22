@@ -38,7 +38,3 @@
   ?>
 </body>
 </html>
-
-
-
-CÂU HỎI: PHP chạy trên server, vậy tại sao phải mở file trên localhost thay vì chỉ mở trực tiếp file PHP trên trình duyệt?

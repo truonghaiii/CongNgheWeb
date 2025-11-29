@@ -1,0 +1,344 @@
+[
+  {
+    "question": "Thành phần nào sau đây KHÔNG phải là một thành phần giao diện người dùng (UI) trong Android?",
+    "options": ["TextView", "Button", "Service", "ImageView"],
+    "answer": ["C"],
+    "type": "single"
+  },
+  {
+    "question": "Layout nào thường được sử dụng để sắp xếp các thành phần UI theo chiều dọc hoặc chiều ngang?",
+    "options": ["RelativeLayout", "LinearLayout", "FrameLayout", "ConstraintLayout"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "Intent trong Android được sử dụng để làm gì?",
+    "options": ["Hiển thị thông báo cho người dùng", "Lưu trữ dữ liệu", "Khởi chạy Activity", "Xử lý sự kiện chạm"],
+    "answer": ["C"],
+    "type": "single"
+  },
+  {
+    "question": "Vòng đời của một Activity bắt đầu bằng phương thức nào?",
+    "options": ["onStart()", "onResume()", "onCreate()", "onPause()"],
+    "answer": ["C"],
+    "type": "single"
+  },
+  {
+    "question": "Để xử lý sự kiện click chuột cho một Button, bạn cần sử dụng phương thức nào?",
+    "options": ["onClick()", "onTouch()", "onLongClick()", "onFocusChange()"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Kiểu dữ liệu nào sau đây được sử dụng để lưu trữ giá trị đúng hoặc sai?",
+    "options": ["int", "float", "String", "boolean"],
+    "answer": ["D"],
+    "type": "single"
+  },
+  {
+    "question": "SharedPreferences trong Android được sử dụng để làm gì?",
+    "options": ["Lưu trữ dữ liệu có cấu trúc", "Truy cập cơ sở dữ liệu SQLite", "Lưu trữ dữ liệu dạng key-value", "Gửi dữ liệu qua mạng"],
+    "answer": ["C"],
+    "type": "single"
+  },
+  {
+    "question": "Toast trong Android được sử dụng để làm gì?",
+    "options": ["Hiển thị một hộp thoại", "Hiển thị một thông báo ngắn gọn", "Phát nhạc", "Chụp ảnh màn hình"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "Để tạo một ứng dụng Android, bạn cần sử dụng ngôn ngữ lập trình nào?",
+    "options": ["C++", "Python", "Java", "Kotlin"],
+    "answer": ["C", "D"],
+    "type": "multi"
+  },
+  {
+    "question": "Adapter trong Android được sử dụng để làm gì?",
+    "options": ["Kết nối dữ liệu với ListView hoặc RecyclerView", "Tạo hiệu ứng động", "Xử lý sự kiện cảm ứng", "Lưu trữ dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Fragment trong Android là gì?",
+    "options": ["Một Activity con", "Một thành phần UI có thể tái sử dụng", "Một dịch vụ chạy nền", "Một kiểu dữ liệu"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "RecyclerView là gì?",
+    "options": ["Một thành phần UI để hiển thị danh sách", "Một layout để sắp xếp UI", "Một lớp để xử lý sự kiện", "Một kiểu dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Manifest file trong Android được sử dụng để làm gì?",
+    "options": ["Khai báo các thành phần của ứng dụng", "Lưu trữ dữ liệu", "Xử lý sự kiện", "Tạo giao diện người dùng"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Gradle là gì?",
+    "options": ["Công cụ quản lý dependencies", "Ngôn ngữ lập trình", "IDE Android", "Framework"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "AsyncTask được sử dụng để làm gì?",
+    "options": ["Xử lý tác vụ chạy nền", "Tạo hiệu ứng động", "Vẽ đồ họa", "Lưu trữ dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "ContentProvider được sử dụng để làm gì?",
+    "options": ["Chia sẻ dữ liệu giữa ứng dụng", "Tạo giao diện người dùng", "Xử lý sự kiện", "Lưu trữ dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "SQLite là gì?",
+    "options": ["Hệ quản trị cơ sở dữ liệu", "Ngôn ngữ lập trình", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "BroadcastReceiver được sử dụng để làm gì?",
+    "options": ["Nhận thông báo hệ thống", "Gửi dữ liệu mạng", "Tạo UI", "Xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Service là gì?",
+    "options": ["Thành phần chạy nền", "Thành phần UI", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Thread là gì?",
+    "options": ["Một luồng xử lý", "Thành phần UI", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Activity Lifecycle là gì?",
+    "options": ["Quá trình tạo–khởi động–tạm dừng–hủy Activity", "Vòng đời ứng dụng", "Tải dữ liệu mạng", "Lưu trữ dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Layout inflater dùng để làm gì?",
+    "options": ["Tạo View từ XML", "Sắp xếp UI", "Xử lý sự kiện", "Lưu trữ dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Drawable là gì?",
+    "options": ["Tài nguyên đồ họa", "Thành phần UI", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "dp là gì?",
+    "options": ["Đơn vị độc lập mật độ", "Đơn vị phụ thuộc mật độ", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Để định nghĩa màu trong Android, bạn dùng kiểu nào?",
+    "options": ["Integer", "String", "Color", "Hexadecimal"],
+    "answer": ["C", "D"],
+    "type": "multi"
+  },
+  {
+    "question": "ViewGroup là gì?",
+    "options": ["Lớp cơ sở của tất cả layout", "UI hiển thị hình ảnh", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Ý nghĩa thuộc tính android:layout_width=\"match_parent\"?",
+    "options": ["Chiều rộng bằng thiết bị", "Chiều rộng bằng thành phần cha", "Chiều rộng cố định", "Tự điều chỉnh"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "Thuộc tính android:gravity dùng để làm gì?",
+    "options": ["Căn chỉnh nội dung", "Đổi vị trí UI", "Đổi kích thước UI", "Đổi màu sắc"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "AndroidManifest.xml nằm ở đâu?",
+    "options": ["/res", "/src", "Thư mục gốc project", "/assets"],
+    "answer": ["C"],
+    "type": "single"
+  },
+  {
+    "question": "Để chạy app trên thiết bị thật cần?",
+    "options": ["Bật USB debugging", "Cài Android Studio trên điện thoại", "adb install", "Cả A và C"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "dp và sp khác nhau như thế nào?",
+    "options": ["dp độc lập mật độ, sp phụ thuộc", "dp cho font, sp cho UI", "dp phụ thuộc, sp độc lập", "Cả hai giống nhau"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "AlertDialog dùng để làm gì?",
+    "options": ["Hiển thị hộp thoại", "Hiển thị thông báo ngắn", "Phát nhạc", "Chụp màn hình"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Intent Filter dùng để làm gì?",
+    "options": ["Lọc Intent", "Khai báo Activity xử lý Intent", "Khởi chạy Activity", "Lưu trữ dữ liệu"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "Serializable là gì?",
+    "options": ["Interface lưu trữ đối tượng", "Lớp lưu trữ", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Khác nhau giữa ListView và RecyclerView?",
+    "options": ["RecyclerView hiệu quả hơn", "Hỗ trợ ViewHolder", "Linh hoạt hơn", "Cả A, B, C"],
+    "answer": ["D"],
+    "type": "single"
+  },
+  {
+    "question": "ViewHolder pattern dùng để làm gì?",
+    "options": ["Tối ưu hiệu năng danh sách", "Lưu trữ dữ liệu", "Xử lý sự kiện", "Tạo UI"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Data Binding là gì?",
+    "options": ["Kết nối dữ liệu với UI", "Lưu trữ dữ liệu", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "MVVM là gì?",
+    "options": ["Kiến trúc phần mềm", "Ngôn ngữ lập trình", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Retrofit là gì?",
+    "options": ["Thư viện HTTP", "Cơ sở dữ liệu", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Gson là gì?",
+    "options": ["Thư viện chuyển đổi JSON ↔ Java", "CSDL", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Picasso là gì?",
+    "options": ["Thư viện tải ảnh", "CSDL", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Firebase là gì?",
+    "options": ["Nền tảng di động của Google", "CSDL", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "ConstraintLayout là gì?",
+    "options": ["Layout linh hoạt", "UI hiển thị danh sách", "Lớp xử lý sự kiện", "Kiểu dữ liệu"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "DataBinding giúp giảm code ở đâu?",
+    "options": ["XML", "Java/Kotlin", "Gradle", "Manifest"],
+    "answer": ["B"],
+    "type": "single"
+  },
+  {
+    "question": "ViewModel trong MVVM có nhiệm vụ gì?",
+    "options": ["Quản lý dữ liệu cho UI", "Hiển thị giao diện", "Xử lý sự kiện", "Tương tác DB"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "LiveData là gì?",
+    "options": ["Lớp giữ và quan sát dữ liệu", "UI component", "Kiểu dữ liệu", "Lớp xử lý sự kiện"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Room là gì?",
+    "options": ["Thư viện làm việc với SQLite", "Hệ QTCSDL", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Jetpack Compose là gì?",
+    "options": ["Toolkit xây UI khai báo", "Ngôn ngữ lập trình", "Framework", "IDE"],
+    "answer": ["A"],
+    "type": "single"
+  },
+  {
+    "question": "Những thành phần có thể hiển thị danh sách? (Chọn 2)",
+    "options": ["TextView", "ListView", "ImageView", "RecyclerView"],
+    "answer": ["B", "D"],
+    "type": "multi"
+  },
+  {
+    "question": "Phát biểu đúng về Intent? (Chọn 2)",
+    "options": ["Truyền dữ liệu giữa Activity", "Chỉ dùng để mở Activity", "Khởi chạy Service", "Không thể chứa dữ liệu"],
+    "answer": ["A", "C"],
+    "type": "multi"
+  },
+  {
+    "question": "Phương thức thuộc vòng đời Activity? (Chọn 3)",
+    "options": ["onCreate()", "onClick()", "onStart()", "onResume()", "onDestroy()"],
+    "answer": ["A", "C", "D", "E"],
+    "type": "multi"
+  },
+  {
+    "question": "Thư viện thường dùng trong Android? (Chọn 3)",
+    "options": ["Retrofit", "Gson", "Picasso", "jQuery"],
+    "answer": ["A", "B", "C"],
+    "type": "multi"
+  },
+  {
+    "question": "Lợi ích của ConstraintLayout? (Chọn 2)",
+    "options": ["Giảm lồng layout", "Cải thiện hiệu năng", "Dễ tạo hiệu ứng động", "Code dễ đọc"],
+    "answer": ["A", "B"],
+    "type": "multi"
+  },
+  {
+    "question": "Thành phần thuộc kiến trúc MVVM? (Chọn 3)",
+    "options": ["Model", "View", "Controller", "ViewModel"],
+    "answer": ["A", "B", "D"],
+    "type": "multi"
+  },
+  {
+    "question": "Công cụ debug ứng dụng Android? (Chọn 2)",
+    "options": ["Android Studio Debugger", "Logcat", "ADB", "Git"],
+    "answer": ["A", "B", "C"],
+    "type": "multi"
+  },
+  {
+    "question": "Kỹ thuật tối ưu hiệu năng Android? (Chọn 3)",
+    "options": ["ViewHolder pattern", "AsyncTask", "Giảm dùng RAM", "Tối ưu ảnh"],
+    "answer": ["A", "B", "C", "D"],
+    "type": "multi"
+  },
+  {
+    "question": "Khái niệm liên quan lưu trữ dữ liệu Android? (Chọn 3)",
+    "options": ["SharedPreferences", "SQLite", "ContentProvider", "Intent"],
+    "answer": ["A", "B", "C"],
+    "type": "multi"
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sach sinh vien</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Danh sách điểm danh </h2>
+<div id="output">Đang tải dữ liệu...</div>
+
+<script>
+    fetch("65HTTT_Danh_sach_diem_danh.csv")
+        .then(response => response.text())
+        .then(text => {
+            const lines = text.trim().split("\n");
+            let html = "<table><tr>";
+
+            
+            const headers = lines[0].split(",");
+            headers.forEach(h => html += `<th>${h.trim()}</th>`);
+            html += "</tr>";
+
+            
+            for (let i = 1; i < lines.length; i++) {
+                const cols = lines[i].split(",");
+                html += "<tr>";
+                cols.forEach(c => html += `<td>${c.trim()}</td>`);
+                html += "</tr>";
+            }
+
+            html += "</table>";
+            document.getElementById("output").innerHTML = html;
+        })
+        .catch(err => {
+            document.getElementById("output").innerHTML =
+                "<p style='color:red;'>Không thể đọc file CSV. Hãy chạy bằng Live Server!</p>";
+        });
+</script>
+
+</body>
+</html>

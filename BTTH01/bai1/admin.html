@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản trị hoa</title>
+</head>
+<body>
+
+<h1>Bảng quản trị hoa</h1>
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>Ảnh</th>
+            <th>Tên hoa</th>
+            <th>Mô tả</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+
+    <tbody id="admin-table"></tbody>
+</table>
+
+<script src="app.js"></script>
+<script>
+    const adminTable = document.getElementById("admin-table");
+
+    flowers.forEach((f, index) => {
+        adminTable.innerHTML += `
+            <tr>
+                <td><img src="${f.image}" width="80"></td>
+                <td>${f.name}</td>
+                <td>${f.description}</td>
+                <td>
+                    <button onclick="editFlower(${index})">Sửa</button>
+                    <button onclick="deleteFlower(${index})">Xóa</button>
+                </td>
+            </tr>
+        `;
+    });
+
+    function editFlower(i) {
+        alert("Sửa");
+    }
+
+    function deleteFlower(i) {
+        alert("Xóa mục " + flowers[i].name);
+    }
+</script>
+
+</body>
+</html>
